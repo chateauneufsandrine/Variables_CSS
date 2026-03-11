@@ -1,64 +1,66 @@
 :root {
---color-red : red;
---color-green : green;
---color-yellow : yellow;
---color-blue : blue;
+  --color-red: red;
+  --color-green: green;
+  --color-yellow: yellow;
+  --color-blue: blue;
 }
 
-:root{
---color-bg: chartreuse;
---color-bg-red : red;
---color-bg-green : green;
---color-bg-yellow : yellow;
---color-bg-blue :blue;
-
-
+:root {
+  --color-bg: chartreuse;
+  --color-bg-red: red;
+  --color-bg-green: green;
+  --color-bg-yellow: yellow;
+  --color-bg-blue: blue;
 }
 
 .btn {
   padding: 2rem 4rem;
- 
- border: 2px solid var(--color, black);
+
+  border: 2px solid var(--color, black);
 
   background: transparent;
   font-size: 1.6em;
   border-radius: 2px;
 
-  &:hover{
-  cursor: pointer;
+  &:hover {
+    cursor: pointer;
     background-color: var(--color-bg);
   }
 }
 
-.btn-red{
- border: 2px solid var(--color-red);
+.btn-red {
+  padding: 2rem 4rem;
+  border: 2px solid var(--color-red);
 
-  &:hover{
-  cursor: pointer;
+  &:hover {
+    cursor: pointer;
     background-color: var(--color-bg-red);
   }
 }
-.btn-green{
- border: 2px solid var(--color-green);
+.btn-green {
+  padding: 2rem 4rem;
+  border: 2px solid var(--color-green);
 
-  &:hover{
-  cursor: pointer;
+  &:hover {
+    cursor: pointer;
     background-color: var(--color-bg-green);
   }
 }
-.btn-yellow{
- border: 2px solid var(--color-yellow);
+.btn-yellow {
+  padding: 2rem 4rem;
+  border: 2px solid var(--color-yellow);
 
-  &:hover{
-  cursor: pointer;
+  &:hover {
+    cursor: pointer;
     background-color: var(--color-bg-yellow);
   }
 }
-.btn-blue{
- border: 2px solid var(--color-blue);
+.btn-blue {
+  padding: 2rem 4rem;
+  border: 2px solid var(--color-blue);
 
-  &:hover{
-  cursor: pointer;
+  &:hover {
+    cursor: pointer;
     background-color: var(--color-bg-blue);
   }
 }
