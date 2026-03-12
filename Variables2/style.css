@@ -45,6 +45,7 @@ h1 {
 }
 .subtitle {
   padding: 0.5rem 1rem;
+  background-color: rgba(0, 0, 0, 0.397);
 }
 main {
   flex: 1;
