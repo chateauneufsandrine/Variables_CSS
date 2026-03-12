@@ -1,68 +1,30 @@
-:root {
-  --color-red: red;
-  --color-green: green;
-  --color-yellow: yellow;
-  --color-blue: blue;
-}
-
-:root {
-  --color-bg: chartreuse;
-  --color-bg-red: red;
-  --color-bg-green: green;
-  --color-bg-yellow: yellow;
-  --color-bg-blue: blue;
-}
-
 .btn {
   padding: 2rem 4rem;
-
   border: 2px solid var(--color, black);
-
   background: transparent;
   font-size: 1.6em;
   border-radius: 2px;
 
-  &:hover {
-    cursor: pointer;
-    background-color: var(--color-bg);
+  &:hover{
+    background-color: var(--color, black);
   }
 }
 
-.btn-red {
-  padding: 2rem 4rem;
-  border: 2px solid var(--color-red);
-
-  &:hover {
-    cursor: pointer;
-    background-color: var(--color-bg-red);
-  }
+.red {
+    --color: red;
 }
-.btn-green {
-  padding: 2rem 4rem;
-  border: 2px solid var(--color-green);
-
-  &:hover {
-    cursor: pointer;
-    background-color: var(--color-bg-green);
-  }
+.green{
+    --color: green;
 }
-.btn-yellow {
-  padding: 2rem 4rem;
-  border: 2px solid var(--color-yellow);
+.yellow{
+    --color: yellow;
 
-  &:hover {
-    cursor: pointer;
-    background-color: var(--color-bg-yellow);
-  }
 }
-.btn-blue {
-  padding: 2rem 4rem;
-  border: 2px solid var(--color-blue);
-
-  &:hover {
-    cursor: pointer;
-    background-color: var(--color-bg-blue);
-  }
+.blue{
+    --color: blue;
+}
+.brown{
+    --color: brown;
 }
 
 /* Créer les variables CSS correpondantes aux classes des différents boutons
