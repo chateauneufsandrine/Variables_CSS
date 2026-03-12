@@ -1,0 +1,63 @@
+:root {
+--main-color : blue;
+}
+/* 
+- Définir une variable sur l'élément global correspondant 
+à la couleur primaire (--main-color) 
+du theme
+- Le background du header et footer sont définis par la variable CSS
+- la div subtitle adopte une couleur plus sombre que celle du header
+*/
+
+* {
+  margin: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
+  text-align: center;
+}
+html,
+body {
+  height: 100%;
+}
+input {
+  width: 120px;
+  height: 40px;
+
+}
+header {
+background-color: var(--main-color, blue);
+}
+footer {
+  padding: 1rem;
+background-color: var(--main-color, blue);
+}
+.subtitle {
+background-color: var(--main-color, blue);
+/* le faire plus sombre que Header */
+}
+h1 {
+  margin: 0;
+  padding: 1rem;
+  color: white;
+}
+.subtitle {
+  padding: 0.5rem 1rem;
+}
+main {
+  flex: 1;
+  padding: 1rem;
+}
+main > div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%);
+  transform: translateX(-50%);
+}
+h3 {
+  margin-top: 1rem;
+}
+
