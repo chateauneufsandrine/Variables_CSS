@@ -7,17 +7,12 @@ de type change et jouant la fonction permettant d'ajouter une propriété de sty
 */
 
 let inputChooser = document.querySelector("#chooser");
-let headerColor = document.querySelectorAll("header");
-let footerColor = document.querySelector("footer");
-// console.log(headerColor);
-// console.log(footerColor);
 
 inputChooser.addEventListener("change", changerLaCouleur);
 
-function changerLaCouleur(event) {
-   console.log("Hello world");
-  document.documentElement.style.setProperty("--main-color", inputChooser.value);
-  
-   }
-
-
+function changerLaCouleur() {
+  document.documentElement.style.setProperty(
+    "--main-color",
+    inputChooser.value,
+  );
+}

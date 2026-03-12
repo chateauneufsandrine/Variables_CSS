@@ -36,7 +36,7 @@ background-color: var(--main-color, blue);
 }
 .subtitle {
 background-color: var(--main-color, blue);
-/* le faire plus sombre que Header */
+/* le faire plus sombre que Header ligth-dark */
 }
 h1 {
   margin: 0;
