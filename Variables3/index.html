@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./main.js" defer></script>
+  </head>
+  <body>
+    <div class="page">
+      <div class="left-side">
+        <h2>Update CSS Variables with JS</h2>
+
+        <div class="controls">
+
+          <label for="spacing">Spacing</label>
+
+          <input
+            type="range"
+            name="spacing"
+            min="0"
+            max="10"
+            value="10"
+            data-sizing="vh"
+            id="spacing"
+          />
+
+          <br /><br />
+
+          <label for="blur">Blur</label>
+
+          <input
+            type="range"
+            name="blur"
+            min="0"
+            max="10"
+            value="10"
+            data-sizing="vh"
+            id="blur"
+          />
+
+          <br /><br />
+
+          <label for="base" class="shift">Color</label>
+
+          <input type="color" name="color" value="#B03602" id="colors"/>
+        </div>
+      </div>
+
+      <div class="right-side">
+        <img src="https://media.giphy.com/media/5kq0GCjHA8Rwc/giphy.gif" />
+        <p>You got Rick Rolled</p>
+      </div>
+    </div>
+  </body>
+</html>
